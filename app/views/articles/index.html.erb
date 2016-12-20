@@ -26,6 +26,9 @@
       <td>
         <%= link_to "Show", article_path(art) %>
       </td>
+      <td>
+        <%= link_to "Delete", article_path(art), method: :delete, data: {confirm: "Are you sure you want to delete this article"} %>
+      </td>
     </tr>
   <% end %>
 </table>
