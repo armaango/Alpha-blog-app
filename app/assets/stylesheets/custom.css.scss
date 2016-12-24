@@ -27,6 +27,16 @@ list-style: none;
 padding-left: 0;
 }
 
+.badge{
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.input-checkbox input{
+  width:auto !important;
+}
+
 .jumbotron{
   background-image: asset-url('cover.png');
   background-size: cover;
